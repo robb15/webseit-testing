@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.input {
+    position: fixed;
+    top: 50%;
+    left: 610px;
+    transform: translate(-30%, -50%);
+    background:black;
+    padding: 50px;
+    width: 270px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 30px;
+}
+
+.input h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    padding-top: 0;
+    margin-top: -10px;
+
+}
+.box-input i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+}
+.box-input{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+.box-input input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+.box-input ::placeholder {
+    color: white;
+}
+.box-input .box-input input:hover{
+    background: yellow;
+}
+.btn-input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 13px;
+}
+.btn-input:hover {
+    background:aquamarine;
+}
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+
+}
+.bottom p {
+    color: brown;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.bottom a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}

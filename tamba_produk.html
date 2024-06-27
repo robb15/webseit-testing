@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf589c66b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cssTambahproduk.css">
+    
+    <title>tambah produk</title>
+</head>
+
+<body>
+    <br><br><br> 
+    <div class="main-btn">
+        <a href="dasbord.html"  class="btn btn-info btn-sm"><i class="fa-solid fa-share"></i></a>
+    </div>
+    <div class="input">
+        <h1 >masukan data konsumen</h1>
+        <form action="tambah_produk.php" method="POST">
+            <section class="base">
+        <div class="box-input">
+            
+            <input type="text" name="nama_konsumen" placeholder="nama konsumen">
+        </div>
+        <div class="box-input">
+           
+            <label style="font-size: 18px ; color: white;">Pilih paket:</label>
+            <select class="main-btn"   name="nama_paket">
+                 <option value="apel">paket 1</option>
+                 <option value="jeruk">paket 2</option>
+                 <option value="pisang">paket 3</option>
+            </select>
+        </div>
+        <div class="box-input">
+            
+            <input type="text" name="harga_paket" placeholder="harga paket">
+        </div>
+
+        
+       
+        <div class="box-input">
+            
+            <input type="date" name="tanggal_acara" placeholder="tanggal acara">
+        </div>
+        <button type="submit" name="login" class="btn-input">tambahkan</button>
+            </section>
+        </form>
+    </div>
+</body>
+</html>

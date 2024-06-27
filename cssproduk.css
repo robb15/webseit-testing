@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost' , sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    
+}
+.navmenu a {
+    position: relative;
+    color: black;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    font-size: 35px;
+    right: 200px;
+    
+
+}
+.navmenu a:hover {
+    color:yellow;
+    transform: scale(1.1);
+}
+    
+
+.tulisan{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.tulisan h2{
+    position: relative;
+    top: 30px;
+    left: -200px;
+}
+    
+
+.ceklis i{
+    position: relative;
+    color: black;
+    font-size: 45px;
+    top: 30px;
+    right: 20px;
+
+
+}
+
+.ceklis p {
+    position: relative;
+    color: black;
+    top: 30px;
+    
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+
+}
+.nav-icon i {
+    margin-right: 20px;
+    width: 40px;
+    margin-left: 20px;
+    color:black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease ;
+
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: black;
+}
+#menu-icon{
+    font-size: 25px;
+    color: #2c2c2c;
+    z-index: 1001;
+    cursor: pointer;
+}
+section{
+    padding: 5% 10%;
+}
+.main-home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(baju.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.main-text h5 {
+    color: brown;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main-text h1{
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0  10px;
+}
+.main-text p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.main-btn {
+    display: inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    border-radius: 10px;
+    padding: 12px 25px ;
+    transition: all 42.s ease;
+
+}
+.main-btn:hover {
+    background-color: black;
+    color: white;
+}
+.main-btn i {
+    vertical-align: middle;
+}
+.down-arrow{
+position: absolute;
+top: 85%;
+left: 50%;
+}
+.down {
+    font-size: 30px;
+    color: #2c2c2c;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+.down:hover {
+    background-color:black;
+    color: white;
+    transition: all .42s ease;
+}
+header.sticky{
+    background:brown;
+    padding: 10px  0px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 );
+    
+}
+.center-text h2{
+color: #111;
+font-size: 28px;
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 30px;
+}
+.center-text span{
+    color: brown;
+}
+
+
+.produk{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+.row{
+    position: relative;
+    transition: all .40s;
+ 
+
+}
+.row img{
+   width: 100%; 
+   height: auto;
+   transition: all .40s;
+}
+.row img:hover{
+    transform: scale(0.9);
+
+}
+.produk-text{
+    position:absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.hati-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.hati-icon:hover{
+    color: brown;
+}
+.ratting{
+    color: #ff8c00;
+    font-size: 18px;
+
+}
+.harga{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.harga p{
+    color: #111;
+    font-size: 14px;
+    font-weight: 600;
+}
+

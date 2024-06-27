@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost' , sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    
+}
+.navmenu a {
+    position: relative;
+    color: black;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    font-size: 35px;
+    right: 200px;
+    
+
+}
+.navmenu a:hover {
+    color:yellow;
+    transform: scale(1.1);
+}
+    
+
+.tulisan{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.tulisan h2{
+    position: relative;
+    top: 30px;
+    left: -200px;
+}
+.ceklis i{
+    position: relative;
+    color: black;
+    font-size: 45px;
+    top: 30px;
+    right: 20px;
+
+
+}
+.ceklis p {
+    position: relative;
+    color: black;
+    top: 30px;
+    
+}
+
+
+.row img{
+    width: 100%; 
+    height: auto;
+    transition: all .40s;
+ }
+ .row img:hover{
+    transform: scale(0.9);
+
+}
+.main-btn {
+    display:inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    border-radius: 15px;
+    padding: 10px 20px ;
+    transition: all 42.s ease;
+
+}
+
+.main-btn:hover {
+    background-color: black;
+    color: white;
+}
+.main-btn h3 {
+    vertical-align: middle;
+    text-align: center;
+}
+header.sticky{
+    background:goldenrod;
+    padding: 5px  0px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 );
+    
+}
+#kotak{
+    width: 300px;
+    height: 450px;
+    border: 2px solid brown;
+    padding: 5px;
+    
+}
+.konten{
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    gap:5px;
+  
+
+}
+.tombol{
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 100px;
+
+}
+.row h5{
+    align-items: center;
+    font-size: 20px;
+}
